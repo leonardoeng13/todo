@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: linear-gradient(150deg, #fdca40 0%, #3772ff 100%);
   color: white;
@@ -20,6 +21,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form input,
 form button {
   padding: 0.5rem;
@@ -27,16 +29,19 @@ form button {
   border: none;
   background: white;
 }
+
 form button {
   color: #3772ff;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 form button:hover {
   background: #3772ff;
   color: white;
 }
+
 .todo-container {
   display: flex;
   justify-content: center;
@@ -58,9 +63,11 @@ form button:hover {
   align-items: center;
   transition: all 1s ease;
 }
+
 .filter-todo {
   padding: 1rem;
 }
+
 .todo li {
   flex: 1;
 }
@@ -74,9 +81,11 @@ form button:hover {
   cursor: pointer;
   font-size: 1rem;
 }
+
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+
 .todo-item {
   padding: 0rem 0.5rem;
 }
@@ -96,7 +105,6 @@ form button:hover {
   opacity: 0.5;
 }
 
-/*CUSTOM SELECTOR */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -108,7 +116,6 @@ select {
   background-image: none;
 }
 
-/* Custom Select */
 .select {
   margin: 1rem;
   position: relative;
@@ -120,7 +127,7 @@ select {
   cursor: pointer;
   width: 12rem;
 }
-/* Arrow */
+
 .select::after {
   content: "\25BC";
   position: absolute;
@@ -131,9 +138,3 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
-}
-*/
