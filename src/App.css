@@ -10,6 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+
 header {
   font-size: 2rem;
 }
@@ -87,7 +88,7 @@ form button:hover {
 }
 
 .todo-item {
-  padding: 0rem 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .fa-trash,
@@ -114,18 +115,16 @@ select {
   box-shadow: none;
   border: 0 !important;
   background-image: none;
+  color: #3772ff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
 }
 
 .select {
   margin: 1rem;
   position: relative;
   overflow: hidden;
-}
-select {
-  color: #3772ff;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  width: 12rem;
 }
 
 .select::after {
