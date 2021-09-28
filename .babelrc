@@ -1,7 +1,6 @@
 {
     "presets": [
-        "@babel/preset-react",
-        "@babel/eslint-parser"
+        "@babel/preset-react"
     ],
     "plugins": ["@babel/plugin-syntax-jsx"]
   }
